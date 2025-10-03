@@ -9,7 +9,7 @@ Script Purpose:
 ===============================================================================
 */
 
-IF OBJECT_ID('bronze.crm_cust_info', 'U') IS NOT NULL
+IF OBJECT_ID('bronze.crm_cust_info', 'U') IS NOT NULL  -- U - user defined table
     DROP TABLE bronze.crm_cust_info;
 GO
 
